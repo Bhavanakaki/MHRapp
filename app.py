@@ -45,7 +45,7 @@ st.markdown("<h1 style='text-align:center;color:#4CAF50;'>Mental Health Risk Det
 st.write("A quick self‑assessment to estimate your risk level and get resources.")
 # Insert your local quote image here:
 st.image(
-    "Data\mentalhealth.jpg",
+    "Data/mentalhealth.jpg",
     caption="“You, yourself, as much as anybody in the entire universe, deserve your love and affection.” – Buddha",
     use_container_width=True
 )
