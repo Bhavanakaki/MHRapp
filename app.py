@@ -20,7 +20,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 # ─── Paths & Resources ───────────────────────────────────────────────────────────
 ROOT      = Path(__file__).parent
-DATA_PATH = ROOT / "data"   / "cleaned_survey.csv"
+DATA_PATH = ROOT / "Data"   / "cleaned_survey.csv"
 RES_PATH  = ROOT / "resources.json"
 
 df        = pd.read_csv(DATA_PATH)
